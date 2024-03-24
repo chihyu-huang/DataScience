@@ -1,31 +1,35 @@
-# DataScience_
+#Bank Customer Satisfaction Prediction Project
+This project aims to predict customer satisfaction with a bank based on their survey responses. It involves analyzing both tabular data containing demographic information and ratings, as well as textual comments expressing customer opinions. By employing various classification techniques, we seek to automatically distinguish between satisfied and dissatisfied customers.
 
-This assignment involves working with a dataset of bank customer satisfaction survey responses. The general objective here is to predict whether customers are satisfied with the bank based on their survey responses. The dataset consists of two different representations for the same set of customers:
-1. Tabular data (bank-tabular.csv) which contains demographic information about each customer and ratings scores (1-5) relating to different aspects of their bank. A manually-labelled ‘satisfied’ variable indicates whether a customer is ‘satisfied’ or ‘dissatisfied’ with the bank.
-2. Text data (bank-comments.csv) which contains short textual comments indicating customers' opinions regarding the bank.
+##Data Sources
+Tabular Data: bank-tabular.csv contains demographic details and rating scores.
+Text Data: bank-comments.csv comprises short textual comments reflecting customer sentiments.
+##Tasks
+###1. Data Preparation
+Obtain the dataset from this link and follow the instructions in the README.TXT file for data format.
+Preprocess the tabular data to address data quality issues and prepare it for analysis.
+###2. Data Characterizations
+Analyze, characterize, and summarize the cleaned tabular dataset, incorporating tables and visualizations.
+Explore temporal trends to understand how customer satisfaction levels evolve over time.
+###3. Tabular Data Classification
+Utilize the 'satisfied' variable to explore various classifiers for distinguishing between satisfied and unsatisfied customers.
+Quantify the performance of classification models using suitable evaluation strategies and discuss the results.
+###4. Text Data Classification
+Integrate textual comments data with tabular data after preprocessing.
+Employ different classifiers on the text data to classify customer responses.
+Assess and discuss the performance of classification models using appropriate evaluation metrics.
+###5. Conclusions
+Compare the performance of tabular and text data representations for customer satisfaction classification.
+Summarize insights gained, challenges faced, and propose ideas for further analysis or classification on the dataset.
+Getting Started
 
-
-### Task 1. Data Preparation
-- Download the data from the assignment from the link below. The ZIP file includes a README.TXT file which explains the data format:
-http://mlg.ucd.ie/modules/python/assign2/bank-data.zip
-- Load the tabular data and applying appropriate preprocessing steps to address different data quality issues and to prepare it for analysis.
-
-### Task 2. Data Characterisations
-- Analyse, characterise, and summarise the cleaned tabular dataset, using tables and visualisations where appropriate. This should include the analysis of customer demographic features and numeric ratings features. You should also explore temporal aspects of the data (e.g. whether customer satisfaction levels are changing over time).
-
-### Task 3. Tabular Data Classification
-- Using the ‘satisfied’ variable in the data, explore the use of tabular data with different classifiers to automatically distinguish between “satisfied” and “unsatisfied” customer responses.
-- Quantity the performance of the various classification models using an appropriate evaluation strategy. Report and discuss the evaluation results.
-
-### Task 4. Text Data Classification
-- Load the text comments data and integrate this with the existing tabular data, applying any necessary preprocessing steps.
-- Using the ‘satisfied’ variable in the data, explore the use of the text data with different classifiers to automatically distinguish between “satisfied” and “unsatisfied” customer responses.
-- Quantity the performance of the various classification models using an appropriate evaluation strategy. Report and discuss the evaluation results.
-
-### Task 5. Conclusions
-- Discuss and compare the overall performance of the two different data representations (i.e. tabular and text) for customer satisfaction classification.
--  At the end of your notebook, summarise any insights which you gained from your analysis of the data, discuss the challenges faced, and suggest ideas for further analysis/classification which could be performed on the data.
-
-
-
-
+#Clone this repository.
+Download the dataset from the provided link.
+Follow the tasks outlined above in your preferred environment (e.g., Jupyter Notebook).
+Refer to the notebook for detailed implementation and analysis.
+#Dependencies
+Python 3.x
+Libraries: Pandas, NumPy, Matplotlib, Scikit-learn, NLTK (for text preprocessing), etc.
+#Contributors
+Chih-Yu Huang
+https://www.linkedin.com/in/chih-yu-huang/
